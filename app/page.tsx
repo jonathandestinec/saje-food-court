@@ -18,7 +18,7 @@ const page = () => {
 
       <header className=' flex items-center justify-center h-screen header' id='header'>
 
-        <div className=' header-img lg:h-[500px] md:h-[600px] h-[80vh] w-4/5 lg:mt-28 md:mt-20 mt-32 ring-4 ring-amber-200/70 flex items-center justify-center rounded-xl relative md:scale-100 lg:scale-100 scale-90 lg:p-0 md:p-0 p-5'>
+        <div className=' header-img lg:h-[500px] md:h-[600px] h-[70vh] w-4/5 lg:mt-28 md:mt-20 mt-32 ring-4 ring-amber-200/70 flex items-center justify-center rounded-xl relative md:scale-100 lg:scale-100 scale-90 lg:p-0 md:p-0 p-5'>
 
           <div className='absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 rounded-full overflow-hidden lg:w-48 lg:h-48 md:w-36 md:h-36 h-28 w-28 ring-2 ring-amber-400'>
             <Image src={"/assets/food8.jpg"} alt='' className=' filter saturate-[120%] brightness-90 blur-[1px]' width={230} height={230} />
