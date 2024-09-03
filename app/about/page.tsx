@@ -14,7 +14,7 @@ const page = () => {
     return (
         <div className={`${shantell_sans.className} font-normal lg:p-16 p-10 box-border pt-20`}>
 
-            <HeaderImgThingy img='/assets/food2.jpg' titleThingy='About Us' />
+            <HeaderImgThingy img='/assets/food2.jpg' titleThingy='About Us' className='' />
 
             <header className=' header text-center'>
                 <div className='ml-auto mr-auto flex items-center justify-center mt-24 lg:w-max md:w-max w-2/4'>
