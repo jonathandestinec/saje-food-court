@@ -14,7 +14,7 @@ const Footer = () => {
             </p>
 
             <div className=' text-amber-300'>
-                <a href="https://www.instagram.com/saje_foodcourt/">
+                <a href="https://www.instagram.com/aldosrestaurantabuja/">
                     <i className="fi fi-brands-instagram text-xl"></i>
                 </a>
 
@@ -27,7 +27,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <p className='text-center text-white/80 lg:text-xl md:text-lg text-base'> © 2022 Saje Food Court. All rights reserved.
+            <p className='text-center text-white/80 lg:text-xl md:text-lg text-base'> © 2024 Aldos Restaurant Abuja. All rights reserved.
                 <span> Powered by 
                     <a href="https://wa.link/6b4r59" className=' underline underline-offset-2 ml-3 text-white'>
                         Oxleaff 🚀

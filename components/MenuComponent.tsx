@@ -12,7 +12,7 @@ import Image from "next/image"
 
 export function MenuComponent({ menuImgs }: { menuImgs: string[] }) {
     return (
-        <Carousel className="lg:w-2/5 md:w-1/2 w-5/6 ml-auto mr-auto mt-20 mb-16">
+        <Carousel className="lg:w-2/5 md:w-1/2 w-5/6 ml-auto mr-auto mt-10 mb-16">
             <CarouselContent className=" border-0">
                 {menuImgs.map((_, index) => (
                     <CarouselItem key={index} className="">

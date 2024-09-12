@@ -27,7 +27,7 @@ const LoadingComponent = () => {
     useEffect(() => {
         setTimeout(() => {
             handleFadeOutOverlay()
-        }, 3000);
+        }, 5000);
     }, [])
 
     return (
@@ -38,28 +38,24 @@ const LoadingComponent = () => {
                     whileInView={{ transform: "translateY(0px)", opacity: 1 }}
                     transition={{ duration: 0.5 }}
                     className={`${yeseva_one.className} md:text-5xl text-3xl text-center transform opacity-0`}
-                >Saje Food Court</motion.h1>
-                <Image src={"/assets/logo.png"} width={200} height={200} alt='' className=' filter brightness-125 ml-auto mr-auto' />
+                >Aldos Restaurant Abuja</motion.h1>
+                <Image src={"/assets/aldos/logo.jpg"} width={180} height={180} alt='' className=' filter brightness-90 contrast-150 ml-auto mr-auto rounded-full mt-10 mb-10' />
                 <motion.h3
                     initial={{ transform: "translateY(10px", opacity: 0 }}
                     whileInView={{ transform: "translateY(0px)", opacity: 1 }}
                     transition={{ duration: 0.5, delay: 1 }}
                     className={`${raleway.className} text-2xl font-medium text-center opacity-0`}
-                >Intercontinental Dishes And Bakery House</motion.h3>
+                >Continental Rooftop Restaurant </motion.h3>
                 <motion.p
                     initial={{ transform: "translateY(10px", opacity: 0 }}
                     whileInView={{ transform: "translateY(0px)", opacity: 1 }}
                     transition={{ duration: 0.5, delay: 1.3 }}
                     className={`text-center ${raleway.className} mt-5 opacity-0`}
                 >
-                    Ahmadu Bello Way HD motion.plaza
+                    📍Jabi lake square plaza
+                    🚚 DELIVERY AVAILABLE
+                    ☎️ for inquiries pls call: 08187681555
                 </motion.p>
-                <motion.p
-                    initial={{ transform: "translateY(10px", opacity: 0 }}
-                    whileInView={{ transform: "translateY(0px)", opacity: 1 }}
-                    transition={{ duration: 0.5, delay: 1.5 }}
-                    className={`text-center ${raleway.className} text-amber-300 opacity-0`}
-                >(9PM-10PM)</motion.p>
             </div>
         </div>
     )

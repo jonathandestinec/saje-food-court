@@ -8,9 +8,8 @@ import MobileNav from "@/components/MobileNav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Saje Food Court",
-  description: `Restaurant and Bakery House |
-  Intercontinental and Local Dishes
+  title: "Aldo's Restaurant Abuja",
+  description: `Continental RoofTop Restaurant
   `,
 };
 

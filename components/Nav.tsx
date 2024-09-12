@@ -46,8 +46,8 @@ const DesktopNav = () => {
             "transform translate-y-0": menuVisible
         })}>
             <div className=' h-max flex items-center justify-center gap-2 w-max lg:scale-100 md:scale-100 scale-75'>
-                <Image src={"/assets/logo.png"} alt='Logo' width={75} height={75} className=' filter brightness-150' />
-                <h1 className={`${lora.className} font-light lg:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-amber-100 md:text-lg text-base`}>SAJE FOOD COURT</h1>
+                {/* <Image src={"/assets/aldos/logo.jpg"} alt='Logo' width={40} height={45} className=' filter brightness-80 contrast-200 rounded-full' /> */}
+                <h1 className={`${lora.className} font-light lg:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-amber-100 md:text-lg text-base`}>ALDO'S RESTAURANT</h1>
             </div>
 
             <div className=' lg:flex items-center justify-center gap-7 font-extralight hidden'>

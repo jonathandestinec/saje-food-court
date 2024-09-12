@@ -12,33 +12,39 @@ const shantell_sans = Shantell_Sans({ weight: ["300", "400", "500", "600", "700"
 const page = () => {
 
     const menuImgs: string[] = [
-        "/assets/menu1.jpg",
-        "/assets/menu2.jpg",
-        "/assets/menu3.jpg",
-        "/assets/menu4.jpg",
-        "/assets/menu5.jpg",
-        "/assets/menu6.jpg",
-        "/assets/menu7.jpg",
-        "/assets/menu8.jpg",
-        "/assets/menu9.jpg",
+        "/assets/aldos/menu/aldosmenu8.jpg",
+        "/assets/aldos/menu/aldosmenu7.jpg",
+        "/assets/aldos/menu/aldosmenu6.jpg",
+        "/assets/aldos/menu/aldosmenu5.jpg",
+        "/assets/aldos/menu/aldosmenu4.jpg",
+        "/assets/aldos/menu/aldosmenu3.jpg",
+        "/assets/aldos/menu/aldosmenu2.jpg",
     ]
 
     return (
         <div className=' w-full'>
             <header className=' header p-3 box-border pb-0 pt-10'>
-                <HeaderImgThingy img='/assets/food2.jpg' titleThingy='Our Menu' className=" w-3/4" />
+                <HeaderImgThingy img='/assets/aldos/food2.jpg' titleThingy='Our Menu' className=" w-3/4" />
 
                 <div className=' w-11/12 ml-auto mr-auto flex items-center justify-center lg:mt-28 md:mt-28 mt-40 mb-16 relative'>
-                    <Image src={"/assets/menu0.jpg"} width={700} height={200} alt='Our Menu' className='rounded-2xl filter' />
+                    <Image src={"/assets/aldos/menu/aldosmenu.jpg"} width={700} height={200} alt='Our Menu' className='rounded-2xl filter' />
 
                     <div className='absolute top-0 right-0 transform  -translate-y-1/2 rounded-full overflow-hidden lg:w-48 lg:h-48 md:w-36 md:h-36 w-36 h-36 ring-2 ring-amber-400'>
-                        <Image src={"/assets/food3.jpg"} alt='' className=' filter saturate-[120%] brightness-90' width={230} height={230} />
+                        <Image src={"/assets/aldos/food8.jpg"} alt='' className=' filter saturate-[120%] brightness-90' width={230} height={230} />
                     </div>
                 </div>
 
             </header>
 
             <MenuComponent menuImgs={menuImgs} />
+
+            <section className=' w-full lg:p-28 md:p-20 pt-5 p-10 mt-10 mb-10 box-border relative'>
+                <h1 className={`${yeseva_one.className} md:text-5xl text-2xl text-center mb-10`}>Drinks Menu</h1>
+
+                <Image src={"/assets/aldos/menu/drinks/menu.jpg"} width={700} height={200} alt='Our Menu' className='rounded-2xl filter ml-auto mr-auto contrast-125' />
+
+                <Image src={"/assets/aldos/menu/drinks/menu1.jpg"} width={700} height={200} alt='Our Menu' className='rounded-2xl filter ml-auto mr-auto contrast-125 mt-10' />
+            </section>
         </div>
     )
 }

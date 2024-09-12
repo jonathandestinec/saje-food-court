@@ -26,11 +26,11 @@ const ImagesGrid = () => {
                             whileInView={{ opacity: 1, transform: "translateY(0px)" }}
                             transition={{ delay: 0.5, duration: 0.8 }}
                         >
-                            Banana Milkshake
+                            Aldos Pumpkin Kibbe
                         </motion.h3>
                     </motion.div>
 
-                    <Image src={"/assets/food4.jpg"} width={300} height={300} alt='' className=' rounded-2xl mb-3 relative' />
+                    <Image src={"/assets/aldos/food7.jpg"} width={300} height={300} alt='' className=' rounded-2xl mb-3 relative' />
                 </div>
 
                 <div className=" relative lg:w-max md:w-max w-10/12 ml-auto mr-auto overflow-hidden">
@@ -41,16 +41,16 @@ const ImagesGrid = () => {
                         transition={{ duration: 1 }}
                     >
                         <motion.h3
-                            className={` ${qwitcher_grypen.className} text-center font-semi-bold md:text-4xl lg:text-4xl text-3xl text-white mt-[100%] pb-5`}
+                            className={` ${qwitcher_grypen.className} text-center font-semi-bold md:text-4xl lg:text-4xl text-3xl text-white mt-[100%] pb-28`}
                             initial={{ opacity: 0, transform: "translateY(20px)" }}
                             whileInView={{ opacity: 1, transform: "translateY(0px)" }}
                             transition={{ delay: 0.5, duration: 0.8 }}
                         >
-                            Juicy Tender
+                            Fish And Fries
                         </motion.h3>
                     </motion.div>
 
-                    <Image src={"/assets/food3.jpg"} width={300} height={300} alt='' className=' rounded-2xl mb-3 relative' />
+                    <Image src={"/assets/aldos/food2.jpg"} width={300} height={300} alt='' className=' rounded-2xl mb-3 relative' />
                 </div>
 
                 <div className=" relative lg:w-max md:w-max w-10/12 ml-auto mr-auto overflow-hidden">
@@ -61,16 +61,16 @@ const ImagesGrid = () => {
                         transition={{ duration: 1 }}
                     >
                         <motion.h3
-                            className={` ${qwitcher_grypen.className} text-center font-semi-bold md:text-4xl lg:text-4xl text-3xl text-white mt-[100%] pb-5`}
+                            className={` ${qwitcher_grypen.className} text-center font-semi-bold md:text-4xl lg:text-4xl text-3xl text-white mt-[100%] pb-44`}
                             initial={{ opacity: 0, transform: "translateY(20px)" }}
                             whileInView={{ opacity: 1, transform: "translateY(0px)" }}
                             transition={{ delay: 0.5, duration: 0.8 }}
                         >
-                            Fried Rice
+                            Pizza
                         </motion.h3>
                     </motion.div>
 
-                    <Image src={"/assets/food5.jpg"} width={300} height={300} alt='' className=' rounded-2xl mb-3 relative' />
+                    <Image src={"/assets/aldos/food1.jpg"} width={300} height={300} alt='' className=' rounded-2xl mb-3 relative' />
                 </div>
 
                 <div className=" relative lg:w-max md:w-max w-10/12 ml-auto mr-auto overflow-hidden">
@@ -81,15 +81,15 @@ const ImagesGrid = () => {
                         transition={{ duration: 1 }}
                     >
                         <motion.h3
-                            className={` ${qwitcher_grypen.className} text-center font-semi-bold md:text-4xl lg:text-4xl text-3xl text-white initial={{opacity:0, transform: "translateY(20px)"}} mt-[100%]`}
+                            className={` ${qwitcher_grypen.className} text-center font-semi-bold md:text-4xl lg:text-4xl text-3xl text-white pb-28 initial={{opacity:0, transform: "translateY(20px)"}} mt-[100%]`}
                             whileInView={{ opacity: 1, transform: "translateY(0px)" }}
                             transition={{ delay: 0.5, duration: 0.8 }}
                         >
-                            Delicious Food
+                            Dessert
                         </motion.h3>
                     </motion.div>
 
-                    <Image src={"/assets/food10.jpg"} width={300} height={300} alt='' className=' rounded-2xl mb-3 relative' />
+                    <Image src={"/assets/aldos/food9.jpg"} width={300} height={300} alt='' className=' rounded-2xl mb-3 relative' />
                 </div>
             </div>
         </div>

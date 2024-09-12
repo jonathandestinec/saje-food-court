@@ -20,12 +20,12 @@ const page = () => {
 
         <div className=' header-img lg:h-[500px] md:h-[600px] h-[70vh] w-4/5 lg:mt-28 md:mt-20 mt-32 ring-4 ring-amber-200/70 flex items-center justify-center rounded-xl relative md:scale-100 lg:scale-100 scale-90 lg:p-0 md:p-0 p-5'>
 
-          <div className='absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 rounded-full overflow-hidden lg:w-48 lg:h-48 md:w-36 md:h-36 h-28 w-28 ring-2 ring-amber-400'>
-            <Image src={"/assets/food8.jpg"} alt='' className=' filter saturate-[120%] brightness-90 blur-[1px]' width={230} height={230} />
+          <div className='absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 rounded-full overflow-hidden lg:w-48 lg:h-48 md:w-36 md:h-36 h-28 w-28 ring-2 ring-amber-400 flex items-center justify-center'>
+            <Image src={"/assets/aldos/food5.jpg"} alt='' className=' filter saturate-[120%] brightness-90 blur-[1px] w-full' width={1000} height={1000} />
           </div>
 
-          <div className='absolute bottom-0 left-0 transform -translate-x-1/2 translate-y-1/3 rounded-full overflow-hidden lg:w-40 lg:h-40 md:w-36 md:h-36 h-28 w-28 ring-2 ring-amber-400'>
-            <Image src={"/assets/food5.jpg"} alt='' className='filter saturate-[125%] brightness-90 blur-[1px]' width={200} height={200} />
+          <div className='absolute bottom-0 left-0 transform -translate-x-1/2 translate-y-1/3 rounded-full overflow-hidden lg:w-40 lg:h-40 md:w-36 md:h-36 h-28 w-28 ring-2 ring-amber-400 flex items-center justify-center'>
+            <Image src={"/assets/aldos/food4.jpg"} alt='' className='filter saturate-[125%] brightness-90 blur-[1px] w-full' width={1000} height={1000} />
           </div>
 
           <div className='header-img-bg active-header-img'></div>
@@ -41,7 +41,7 @@ const page = () => {
             </div>
 
             <p className={`${raleway.className} text-base font-normal text-center mt-5`}>
-              Intercontinental dishes and Bakery house. <br />Bringing the heat to your food. <br />No one can compete with our dishes
+              Continental Roof top Restaurant. <br />Bringing the heat to your food. <br />No one can compete with our dishes
             </p>
 
             <div className=' w-max ml-auto mr-auto mt-7 bg-white rounded-full text-black pl-10 pr-10'>
@@ -95,15 +95,15 @@ const page = () => {
         <div className=' flex flex-wrap items-center lg:gap-0 md:gap-5 gap-3 justify-between w-full lg:mt-10 md:mt-10 mt-5'>
 
           <button className={` ${raleway.className} font-semibold rounded-full lg:text-base md:text-base text-sm text-left pl-10 pr-12 pt-[10px] pb-[10px] fles items-center bg-gradient-to-r from-amber-700 to-amber-300 backdrop-blur-xl`}>
-            INTERCONTINANTAL FOODS
+            CONTINANTAL FOODS
           </button>
 
           <button className={` ${raleway.className} font-semibold rounded-full lg:text-base md:text-base text-sm text-left pl-10 pr-12 pt-[10px] pb-[10px] fles items-center bg-gradient-to-r from-amber-700 to-amber-300 backdrop-blur-xl`}>
-            LOCAL DELICACY
+            EVENTS
           </button>
 
           <button className={` ${raleway.className} font-semibold rounded-full lg:text-base md:text-base text-sm text-left pl-10 pr-12 pt-[10px] pb-[10px] fles items-center bg-gradient-to-r from-amber-700 to-amber-300 backdrop-blur-xl`}>
-            BAKERY HOUSE
+            PASTRIES
           </button>
         </div>
 
@@ -122,7 +122,7 @@ const page = () => {
         <div className=' lg:flex md:flex block md:gap-20 items-center justify-between w-full ml-auto mr-auto mt-16'>
 
           <div className=' lg:w-1/2 md:w-1/2 w-5/6 ml-auto mr-auto flex items-center justify-start relative'>
-            <Image src={"/assets/food12.jpg"} alt='' width={300} height={500} className=' filter brightness-110 saturate-[110%] ring-2 ring-amber-50/90 transform -rotate-6' />
+            <Image src={"/assets/aldos/food4.jpg"} alt='' width={300} height={500} className=' filter brightness-110 saturate-[110%] ring-2 ring-amber-50/90 transform -rotate-6' />
             <Image src={"/assets/spiral2.svg"} alt='' width={300} height={500} className=' absolute bottom-0 right-0 transform lg:translate-y-5 lg:-translate-x-7 rotate-12 -z-10 md:translate-y-32 translate-y-16 md:-translate-x-36' />
           </div>
 
@@ -132,7 +132,7 @@ const page = () => {
                 YOUR SPECIAL OCCASION DESTINATION
               </h5>
               <h4 className={`kalnia-normal text-4xl`}>
-                Our Singapore noodle is a premium taste that yearns to be <span className=' italic'>savored, </span>
+                Our special delicacy is a premium taste that yearns to be <span className=' italic'>savored, </span>
               </h4>
               <p className={`kalnia-normal text-4xl`}>
                 delight your taste <span className=' italic'>buds</span>
@@ -143,7 +143,7 @@ const page = () => {
               It’s a harmonious dish, and is a must try for any food lover
             </p>
 
-            <button className={` ${raleway.className} font-medium rounded-full text-base text-left pl-10 pr-12 pt-[10px] pb-[10px] fles items-center bg-gradient-to-r from-amber-700 to-amber-300 backdrop-blur-xl mt-3`}>SINGAPORE NOODLES</button>
+            <button className={` ${raleway.className} font-medium rounded-full text-base text-left pl-10 pr-12 pt-[10px] pb-[10px] fles items-center bg-gradient-to-r from-amber-700 to-amber-300 backdrop-blur-xl mt-3`}>FISH AND FIRES</button>
           </div>
         </div>
 
